@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# dong-ui-poc
+### React를 이용해서 만든 디자인 시스템
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Languages
+<code><img width=40 height=40 src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913457/noticon/eh4d0dnic4n1neth3fui.png" alt="TypeScript" /></code>
 
-Currently, two official plugins are available:
+### Libraries
+<code><img width=40 height=40 src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1709647158/noticon/ex4f09r5x4vy9cwbavah.png" alt="Mock Service Worker" /></code>
+<code><img width=40 height=40 src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566952480/noticon/fyec5eye4l6hyxlpfxze.png" alt="Storybook" /></code>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Deployments
+<code><img width=40 height=40 src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1673248072/noticon/uj1sljza7nnsj0lpilwk.png" alt="Github Actions" /></code>
+<code><img width=40 height=40 src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566912768/noticon/ix6jwc1vww6hdxacncbx.jpg" alt="npm" /></code>
+<code><img width=40 height=40 src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1697414265/noticon/ore3jkmidxz29vw06l77.png" alt="Chromatic" /></code>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Directory
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+components
+ㄴ accordion
+    ㄴ index.ts
+    ㄴ style.css or ts file
+stories
+ㄴ accordion.tsx
+```
